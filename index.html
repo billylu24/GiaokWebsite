@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A clean personal website template for a portfolio, resume, and contact links."
+    >
+    <title>Your Name | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark">YN</span>
+        <span>Your Name</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Designer / Developer / Builder</p>
+          <h1>Hi, I am Your Name. I build thoughtful digital products.</h1>
+          <p class="hero-text">
+            Replace this with a short intro about who you are, what you do, and
+            the kind of work you want people to remember.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#work">View work</a>
+            <a class="button secondary" href="mailto:hello@example.com">Email me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Profile highlight">
+          <img src="assets/profile-placeholder.svg" alt="Abstract profile placeholder">
+          <div class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for selected projects
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-grid" aria-label="Snapshot">
+        <div>
+          <p class="section-kicker">Current focus</p>
+          <h2>Turning ideas into polished, useful interfaces.</h2>
+        </div>
+        <p>
+          Add a concise paragraph about your specialties, values, and the
+          problems you enjoy solving. Keep it specific, direct, and easy to scan.
+        </p>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="section-kicker">Selected work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media product"></div>
+            <div class="project-body">
+              <p class="project-type">Product design</p>
+              <h3>Project One</h3>
+              <p>
+                A brief outcome-focused description of the project, your role,
+                and the measurable result.
+              </p>
+              <a href="#" aria-label="View Project One">View project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media systems"></div>
+            <div class="project-body">
+              <p class="project-type">Web development</p>
+              <h3>Project Two</h3>
+              <p>
+                Explain the challenge, the stack, and what changed for users or
+                the business after launch.
+              </p>
+              <a href="#" aria-label="View Project Two">View project</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media strategy"></div>
+            <div class="project-body">
+              <p class="project-type">Strategy</p>
+              <h3>Project Three</h3>
+              <p>
+                Use this slot for a client project, open-source contribution, or
+                personal build that represents your range.
+              </p>
+              <a href="#" aria-label="View Project Three">View project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="experience">
+        <div>
+          <p class="section-kicker">Experience</p>
+          <h2>A quick timeline.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>2024 - Now</span>
+            <div>
+              <h3>Current Role</h3>
+              <p>Describe your role, team, and the kind of impact you own.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>2022 - 2024</span>
+            <div>
+              <h3>Previous Role</h3>
+              <p>Summarize a key accomplishment or product area.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span>Before</span>
+            <div>
+              <h3>Education / Freelance / Projects</h3>
+              <p>Add the background details that support your story.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Have something in mind?</h2>
+          <p>
+            Write a short invitation for collaborations, interviews, consulting,
+            or project opportunities.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="https://github.com/yourname">GitHub</a>
+          <a href="https://www.linkedin.com/in/yourname">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

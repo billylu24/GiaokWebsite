@@ -1,0 +1,11 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">An abstract profile image placeholder.</desc>
+  <rect width="640" height="640" rx="44" fill="#F8F7F3"/>
+  <path d="M91 473C145 383 210 338 286 338C362 338 427 383 481 473" stroke="#0F766E" stroke-width="34" stroke-linecap="round"/>
+  <circle cx="286" cy="230" r="86" fill="#134E4A"/>
+  <path d="M386 145C454 172 501 238 501 315C501 388 459 452 398 482" stroke="#C7653B" stroke-width="26" stroke-linecap="round"/>
+  <path d="M132 174C169 118 231 84 300 84C390 84 466 144 491 226" stroke="#F4D06F" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="461" cy="207" r="18" fill="#0F766E"/>
+  <circle cx="151" cy="432" r="15" fill="#C7653B"/>
+</svg>
